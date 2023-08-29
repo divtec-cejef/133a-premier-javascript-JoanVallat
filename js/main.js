@@ -5,8 +5,10 @@
  * @version :   0.0.1
  */
 
+"use strict";
 
 //Création de
 let message = "Bonjour";
 
+//Affichage dans la console
 console.log(message);
