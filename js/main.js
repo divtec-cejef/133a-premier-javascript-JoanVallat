@@ -7,8 +7,10 @@
 
 "use strict";
 
-//Création de
-let message = "Bonjour";
 
-//Affichage dans la console
-console.log(message);
+//Récupérer tout les paragraphe du documents
+let tableauDesPara = document.querySelectorAll("p");
+
+
+//Affiche le contenu des varaible dans la console
+console.log(tableauDesPara);
