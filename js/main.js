@@ -14,3 +14,7 @@ let tableauDesPara = document.querySelectorAll("p");
 
 //Affiche le contenu des varaible dans la console
 console.log(tableauDesPara);
+
+
+let btAjouter = document.querySelector("button.ajouter");
+console.log(btAjouter);
