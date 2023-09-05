@@ -27,3 +27,18 @@ btAjouter.addEventListener("click",()=> {
     //Vide la console
     txtArticle.value = "";
 });
+
+//Demande l'age à l'utilisateur et la transforme en nombre
+let age = parseInt(prompt("Quel est ton age?"));
+
+//Transforme en nombre
+//age = parseInt(age)
+
+//Si l'age n'est pas un nombre
+if(isNaN(age)){
+    alert("Entrez un nombre !");
+}else{
+    //Affiche l'age
+    //alert("Tu as " + age + " an(s)");
+    alert(`Tu as ${age + 10} an(s)`);
+}
